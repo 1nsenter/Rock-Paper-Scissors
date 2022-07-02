@@ -26,8 +26,8 @@ namespace Progect1
                 string? result = Console.ReadLine();
                 if (result == "start")
                 {
-                    p1 = random.Next(1, 3);
-                    p2 = random.Next(1, 3);
+                    p1 = random.Next(1, 4);
+                    p2 = random.Next(1, 4);
                     // 1 = ножницы
                     // 2 = камень
                     // 3 = бумага
@@ -88,7 +88,6 @@ namespace Progect1
                 }
             }   
         }
-    }   
-
+    }  
 }
 
