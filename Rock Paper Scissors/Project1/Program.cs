@@ -26,52 +26,52 @@ namespace Progect1
                 string? result = Console.ReadLine();
                 if (result == "start")
                 {
-                    p1 = random.Next(1, 4);
-                    p2 = random.Next(1, 4);
-                    // 1 = ножницы
-                    // 2 = камень
-                    // 3 = бумага
-                    if (p1 == 1 && p2 == 2)
+                    p1 = random.Next(0, 3);
+                    p2 = random.Next(0, 3);
+                    // 0 = ножницы
+                    // 1 = камень
+                    // 2 = бумага
+                    if (p1 == 0 && p2 == 1)
                     {
                         Console.WriteLine($"{PlayerName1} = ножницы | камень = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName2}");
                     }
-                    else if (p1 == 1 && p2 == 3)
+                    else if (p1 == 0 && p2 == 2)
                     {
                         Console.WriteLine($"{PlayerName1} = ножницы | бумага = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName1}");
                     }
-                    else if (p1 == 1 && p2 == 1)
+                    else if (p1 == 0 && p2 == 0)
                     {
                         Console.WriteLine($"{PlayerName1} = ножницы | ножницы = {PlayerName2}");
                         Console.WriteLine($"Результат: Ничья");
                     }
-                    else if (p1 == 2 && p2 == 2)
+                    else if (p1 == 1 && p2 == 1)
                     {
                         Console.WriteLine($"{PlayerName1} = камень | камень = {PlayerName2}");
                         Console.WriteLine($"Результат: Ничья");
                     }
-                    else if (p1 == 2 && p2 == 1)
+                    else if (p1 == 1 && p2 == 0)
                     {
                         Console.WriteLine($"{PlayerName1} = камень | ножницы = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName1}");
                     }
-                    else if (p1 == 2 && p2 == 3)
+                    else if (p1 == 1 && p2 == 2)
                     {
                         Console.WriteLine($"{PlayerName1} = камень | бумага = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName2}");
                     }
-                    else if (p1 == 3 && p2 == 3)
+                    else if (p1 == 2 && p2 == 2)
                     {
                         Console.WriteLine($"{PlayerName1} = бумага | бумага = {PlayerName2}");
                         Console.WriteLine($"Результат: Ничья");
                     }
-                    else if (p1 == 3 && p2 == 1)
+                    else if (p1 == 2 && p2 == 0)
                     {
                         Console.WriteLine($"{PlayerName1} = бумага | ножницы = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName2}");
                     }
-                    else if (p1 == 3 && p2 == 2)
+                    else if (p1 == 2 && p2 == 1)
                     {
                         Console.WriteLine($"{PlayerName1} = бумага | камень = {PlayerName2}");
                         Console.WriteLine($"Результат: Победил {PlayerName1}");
