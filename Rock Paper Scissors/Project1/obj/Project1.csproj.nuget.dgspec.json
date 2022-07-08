@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Project1\\Project1\\Project1.csproj": {}
+    "F:\\Files\\Visual Studio Project\\Rock Paper Scissors\\Project1\\Project1.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Project1\\Project1\\Project1.csproj": {
+    "F:\\Files\\Visual Studio Project\\Rock Paper Scissors\\Project1\\Project1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Project1\\Project1\\Project1.csproj",
+        "projectUniqueName": "F:\\Files\\Visual Studio Project\\Rock Paper Scissors\\Project1\\Project1.csproj",
         "projectName": "Project1",
-        "projectPath": "C:\\Project\\Project1\\Project1\\Project1.csproj",
+        "projectPath": "F:\\Files\\Visual Studio Project\\Rock Paper Scissors\\Project1\\Project1.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Project1\\Project1\\obj\\",
+        "outputPath": "F:\\Files\\Visual Studio Project\\Rock Paper Scissors\\Project1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
